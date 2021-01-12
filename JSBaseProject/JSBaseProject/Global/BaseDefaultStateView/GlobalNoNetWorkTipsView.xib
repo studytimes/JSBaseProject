@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GlobalNoNetWorkTipsView">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="272"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLU-f8-bV9">
+                    <rect key="frame" x="0.0" y="46" width="380" height="180"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="global_nonetbgimage" translatesAutoresizingMaskIntoConstraints="NO" id="kV6-nY-iNj">
+                            <rect key="frame" x="124.5" y="0.0" width="131" height="104"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="131" id="URb-u8-6aJ"/>
+                                <constraint firstAttribute="height" constant="104" id="YMg-Pp-cZd"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="重新尝试或检查网络" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHp-8W-8Ls">
+                            <rect key="frame" x="135" y="125" width="110.5" height="14.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVJ-I1-G83">
+                            <rect key="frame" x="140" y="150" width="100" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="YD8-4w-W4V"/>
+                                <constraint firstAttribute="width" constant="100" id="ZqZ-bE-Dvf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="再次尝试">
+                                <color key="titleColor" red="0.85098039219999999" green="0.1215686275" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="tryAgainButClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="2kZ-m3-H8o"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无法连接网络" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tk-v8-cO4">
+                            <rect key="frame" x="150" y="104" width="80" height="16"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.21960784310000001" green="0.25098039220000001" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4tk-v8-cO4" firstAttribute="top" secondItem="kV6-nY-iNj" secondAttribute="bottom" id="2Pc-LT-w1q"/>
+                        <constraint firstItem="4tk-v8-cO4" firstAttribute="centerX" secondItem="lLU-f8-bV9" secondAttribute="centerX" id="2qx-VO-lLM"/>
+                        <constraint firstAttribute="height" constant="180" id="QCg-EC-Tdw"/>
+                        <constraint firstItem="FHp-8W-8Ls" firstAttribute="centerX" secondItem="lLU-f8-bV9" secondAttribute="centerX" id="ZRC-Nr-Elu"/>
+                        <constraint firstItem="kV6-nY-iNj" firstAttribute="centerX" secondItem="lLU-f8-bV9" secondAttribute="centerX" id="ZUC-cp-ecr"/>
+                        <constraint firstAttribute="bottom" secondItem="uVJ-I1-G83" secondAttribute="bottom" id="ec9-eB-AA9"/>
+                        <constraint firstItem="kV6-nY-iNj" firstAttribute="top" secondItem="lLU-f8-bV9" secondAttribute="top" id="jwh-US-2bf"/>
+                        <constraint firstItem="uVJ-I1-G83" firstAttribute="centerX" secondItem="lLU-f8-bV9" secondAttribute="centerX" id="nnB-GT-shX"/>
+                        <constraint firstItem="FHp-8W-8Ls" firstAttribute="top" secondItem="4tk-v8-cO4" secondAttribute="bottom" constant="5" id="w3h-Z0-4nw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lLU-f8-bV9" secondAttribute="trailing" id="Aq8-Ds-P5V"/>
+                <constraint firstItem="lLU-f8-bV9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xq2-0P-glz"/>
+                <constraint firstItem="lLU-f8-bV9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="k2U-Do-D74"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tryAgainBut" destination="uVJ-I1-G83" id="8Me-oh-F6i"/>
+            </connections>
+            <point key="canvasLocation" x="-248" y="81.859070464767626"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="global_nonetbgimage" width="187" height="167"/>
+    </resources>
+</document>

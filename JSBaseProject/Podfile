@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+#忽略引入库的所有警告
+inhibit_all_warnings!
+
+target 'JSBaseProject' do
+
+pod 'AFNetworking', '~> 4.0.1'
+pod 'IQKeyboardManager', '~> 6.5.4'
+pod 'Masonry', '1.0.1'
+pod 'MBProgressHUD', '1.0.0'
+pod 'MJExtension', '~> 3.2.1'
+pod 'MJRefresh', '~> 3.4.1'
+pod 'SDWebImage', '~> 5.4.0'
+
+end

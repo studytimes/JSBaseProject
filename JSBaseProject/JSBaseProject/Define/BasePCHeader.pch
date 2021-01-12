@@ -1,0 +1,52 @@
+//
+//  BasePCHeader.pch
+//  SXMedicalCare
+//
+//  Created by Mini on 2021/1/4.
+//
+
+#ifdef __OBJC__
+
+
+#ifndef BasePCHeader_pch
+#define BasePCHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <WebKit/WebKit.h>
+
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+#import "MJExtension.h"
+#import "Masonry.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <SDWebImage.h>
+
+#import "DefineRequest.h"
+#import "DefineMacro.h"
+#import "DefineTheme.h"
+#import "DefineNotification.h"
+
+#import "GlobalServerTool.h"
+#import "GlobalMethodsTools.h"
+#import "GlobalUITools.h"
+
+#import "UIColor+Hex.h"
+#import "Http.h"
+
+#import "BaseNavViewController.h"
+#import "APBaseHiddenNavViewController.h"
+
+#import "UserManager.h"
+
+
+#endif /* BasePCHeader_pch */
+
+#endif
