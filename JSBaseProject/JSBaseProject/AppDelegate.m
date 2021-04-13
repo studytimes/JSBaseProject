@@ -7,6 +7,8 @@
 
 #import "AppDelegate.h"
 
+#import "BaseFunctionViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +18,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor  = [UIColor whiteColor];
+    [IQKeyboardManager sharedManager].enableAutoToolbar = NO ;
+    [IQKeyboardManager sharedManager].enable = NO ;
+    [IQKeyboardManager sharedManager].previousNextDisplayMode = IQPreviousNextDisplayModeAlwaysHide ;
+
+    BaseFunctionViewController *funvc = [[BaseFunctionViewController alloc] init];
+    BaseNavViewController *rootnavvc = [[BaseNavViewController alloc] initWithRootViewController:funvc];
+    
+    self.window.rootViewController = rootnavvc ;
+    [self.window makeKeyAndVisible] ;
+    
     return YES;
 }
 

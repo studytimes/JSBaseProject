@@ -33,8 +33,10 @@
 		ADA3C97C25AD4D7000DB390E /* GlobalNoNetWorkTipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA3C95B25AD4D7000DB390E /* GlobalNoNetWorkTipsView.xib */; };
 		ADA3C97D25AD4D7000DB390E /* APGlobalCommonNoDataBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3C95D25AD4D7000DB390E /* APGlobalCommonNoDataBgView.m */; };
 		ADA3C97E25AD4D7000DB390E /* GlobalNoNetWorkTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3C95E25AD4D7000DB390E /* GlobalNoNetWorkTipsView.m */; };
+		ADB56B30261C023F000C18C3 /* JSCommonAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB56B2F261C023F000C18C3 /* JSCommonAVPlayer.m */; };
+		ADB56B38261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB56B37261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m */; };
 		ADC1E79C259C70D200F77458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E79B259C70D200F77458 /* AppDelegate.m */; };
-		ADC1E7A2259C70D200F77458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E7A1259C70D200F77458 /* ViewController.m */; };
+		ADC1E7A2259C70D200F77458 /* BaseFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E7A1259C70D200F77458 /* BaseFunctionViewController.m */; };
 		ADC1E7A7259C70D300F77458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC1E7A6259C70D300F77458 /* Assets.xcassets */; };
 		ADC1E7AA259C70D300F77458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC1E7A8259C70D300F77458 /* LaunchScreen.storyboard */; };
 		ADC1E7AD259C70D300F77458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E7AC259C70D300F77458 /* main.m */; };
@@ -120,11 +122,16 @@
 		ADA3C96225AD4D7000DB390E /* BasePCHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePCHeader.pch; sourceTree = "<group>"; };
 		ADA3C96325AD4D7000DB390E /* DefineRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineRequest.h; sourceTree = "<group>"; };
 		ADA3C96425AD4D7000DB390E /* DefineTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineTheme.h; sourceTree = "<group>"; };
+		ADB56B2E261C023F000C18C3 /* JSCommonAVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCommonAVPlayer.h; sourceTree = "<group>"; };
+		ADB56B2F261C023F000C18C3 /* JSCommonAVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCommonAVPlayer.m; sourceTree = "<group>"; };
+		ADB56B35261C0F74000C18C3 /* UIImageView+JSGifImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JSGifImageView.h"; sourceTree = "<group>"; };
+		ADB56B36261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JSSingleTapimageview.h"; sourceTree = "<group>"; };
+		ADB56B37261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JSSingleTapimageview.m"; sourceTree = "<group>"; };
 		ADC1E797259C70D200F77458 /* JSBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC1E79A259C70D200F77458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADC1E79B259C70D200F77458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADC1E7A0259C70D200F77458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ADC1E7A1259C70D200F77458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADC1E7A0259C70D200F77458 /* BaseFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFunctionViewController.h; sourceTree = "<group>"; };
+		ADC1E7A1259C70D200F77458 /* BaseFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFunctionViewController.m; sourceTree = "<group>"; };
 		ADC1E7A6259C70D300F77458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC1E7A9259C70D300F77458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC1E7AB259C70D300F77458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -189,6 +196,9 @@
 		ADA3C92925AD4D7000DB390E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				ADB56B34261C0310000C18C3 /* Objective-C */,
+				ADB56B2A261C0141000C18C3 /* JSMedia */,
+				ADB56B20261BFA3E000C18C3 /* JSUIKit */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -215,6 +225,7 @@
 		ADA3C93025AD4D7000DB390E /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				ADB56B1F261BF8F8000C18C3 /* JSAVPlayer */,
 				ADA3C93125AD4D7000DB390E /* Category */,
 				ADA3C93425AD4D7000DB390E /* GlobalimageBrower */,
 				ADA3C93C25AD4D7000DB390E /* GlobalMethodTools */,
@@ -259,11 +270,11 @@
 			isa = PBXGroup;
 			children = (
 				ADA3C93D25AD4D7000DB390E /* GlobalServerTool.h */,
-				ADA3C93E25AD4D7000DB390E /* GlobalUITools.m */,
-				ADA3C93F25AD4D7000DB390E /* GlobalMethodsTools.m */,
-				ADA3C94025AD4D7000DB390E /* GlobalUITools.h */,
 				ADA3C94125AD4D7000DB390E /* GlobalServerTool.m */,
+				ADA3C94025AD4D7000DB390E /* GlobalUITools.h */,
+				ADA3C93E25AD4D7000DB390E /* GlobalUITools.m */,
 				ADA3C94225AD4D7000DB390E /* GlobalMethodsTools.h */,
+				ADA3C93F25AD4D7000DB390E /* GlobalMethodsTools.m */,
 			);
 			path = GlobalMethodTools;
 			sourceTree = "<group>";
@@ -326,6 +337,39 @@
 			path = Define;
 			sourceTree = "<group>";
 		};
+		ADB56B1F261BF8F8000C18C3 /* JSAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSAVPlayer;
+			sourceTree = "<group>";
+		};
+		ADB56B20261BFA3E000C18C3 /* JSUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSUIKit;
+			sourceTree = "<group>";
+		};
+		ADB56B2A261C0141000C18C3 /* JSMedia */ = {
+			isa = PBXGroup;
+			children = (
+				ADB56B2E261C023F000C18C3 /* JSCommonAVPlayer.h */,
+				ADB56B2F261C023F000C18C3 /* JSCommonAVPlayer.m */,
+			);
+			path = JSMedia;
+			sourceTree = "<group>";
+		};
+		ADB56B34261C0310000C18C3 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				ADB56B35261C0F74000C18C3 /* UIImageView+JSGifImageView.h */,
+				ADB56B36261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.h */,
+				ADB56B37261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
 		ADC1E78E259C70D200F77458 = {
 			isa = PBXGroup;
 			children = (
@@ -358,8 +402,8 @@
 				ADA3C92A25AD4D7000DB390E /* Vender */,
 				ADC1E79A259C70D200F77458 /* AppDelegate.h */,
 				ADC1E79B259C70D200F77458 /* AppDelegate.m */,
-				ADC1E7A0259C70D200F77458 /* ViewController.h */,
-				ADC1E7A1259C70D200F77458 /* ViewController.m */,
+				ADC1E7A0259C70D200F77458 /* BaseFunctionViewController.h */,
+				ADC1E7A1259C70D200F77458 /* BaseFunctionViewController.m */,
 				ADC1E7A6259C70D300F77458 /* Assets.xcassets */,
 				ADC1E7A8259C70D300F77458 /* LaunchScreen.storyboard */,
 				ADC1E7AB259C70D300F77458 /* Info.plist */,
@@ -579,13 +623,14 @@
 				ADA3C96725AD4D7000DB390E /* ServerFileHelper.m in Sources */,
 				ADA3C97025AD4D7000DB390E /* GlobalMethodsTools.m in Sources */,
 				ADA3C97925AD4D7000DB390E /* User.m in Sources */,
+				ADB56B30261C023F000C18C3 /* JSCommonAVPlayer.m in Sources */,
 				ADA3C97425AD4D7000DB390E /* BaseOutTabbar.m in Sources */,
 				ADA3C96525AD4D7000DB390E /* ServerFileManager.m in Sources */,
 				ADA3C97225AD4D7000DB390E /* BaseNavViewController.m in Sources */,
 				ADA3C96A25AD4D7000DB390E /* SAMKeychain.m in Sources */,
 				ADA3C97825AD4D7000DB390E /* UserManager.m in Sources */,
 				ADA3C97725AD4D7000DB390E /* APBaseTabbarViewController.m in Sources */,
-				ADC1E7A2259C70D200F77458 /* ViewController.m in Sources */,
+				ADC1E7A2259C70D200F77458 /* BaseFunctionViewController.m in Sources */,
 				ADA3C96E25AD4D7000DB390E /* GlobalNativeimageBrowserVC.m in Sources */,
 				ADA3C96625AD4D7000DB390E /* ServerLogManager.m in Sources */,
 				ADA3C96F25AD4D7000DB390E /* GlobalUITools.m in Sources */,
@@ -593,6 +638,7 @@
 				ADA3C96C25AD4D7000DB390E /* BrowerImageView.m in Sources */,
 				ADA3C97325AD4D7000DB390E /* APBaseMoreRecognizeScrollerView.m in Sources */,
 				ADA3C97D25AD4D7000DB390E /* APGlobalCommonNoDataBgView.m in Sources */,
+				ADB56B38261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m in Sources */,
 				ADA3C97625AD4D7000DB390E /* APBaseHiddenNavViewController.m in Sources */,
 				ADC1E7AD259C70D300F77458 /* main.m in Sources */,
 				ADA3C97B25AD4D7000DB390E /* CustomServerManager.m in Sources */,
