@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD9A33BA262EDA1F00420A7C /* JSGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9A33B9262EDA1F00420A7C /* JSGuidePageViewController.m */; };
 		ADA3C96525AD4D7000DB390E /* ServerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3C92425AD4D7000DB390E /* ServerFileManager.m */; };
 		ADA3C96625AD4D7000DB390E /* ServerLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3C92525AD4D7000DB390E /* ServerLogManager.m */; };
 		ADA3C96725AD4D7000DB390E /* ServerFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3C92625AD4D7000DB390E /* ServerFileHelper.m */; };
@@ -66,6 +67,8 @@
 		224777628B35BE9603D71C1C /* Pods-JSBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBaseProject.release.xcconfig"; path = "Target Support Files/Pods-JSBaseProject/Pods-JSBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		3800DBB16E34F65ABC2F2287 /* libPods-JSBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525584567B01E71EADC18731 /* Pods-JSBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-JSBaseProject/Pods-JSBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9A33B8262EDA1F00420A7C /* JSGuidePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSGuidePageViewController.h; sourceTree = "<group>"; };
+		AD9A33B9262EDA1F00420A7C /* JSGuidePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSGuidePageViewController.m; sourceTree = "<group>"; };
 		ADA3C92125AD4D7000DB390E /* ServerLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerLogManager.h; sourceTree = "<group>"; };
 		ADA3C92225AD4D7000DB390E /* Http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Http.h; sourceTree = "<group>"; };
 		ADA3C92325AD4D7000DB390E /* ServerFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerFileHelper.h; sourceTree = "<group>"; };
@@ -178,6 +181,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD9A33B7262ED9F100420A7C /* JSGuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A33B8262EDA1F00420A7C /* JSGuidePageViewController.h */,
+				AD9A33B9262EDA1F00420A7C /* JSGuidePageViewController.m */,
+			);
+			path = JSGuidePage;
+			sourceTree = "<group>";
+		};
 		ADA3C92025AD4D7000DB390E /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +208,7 @@
 		ADA3C92925AD4D7000DB390E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				AD9A33B7262ED9F100420A7C /* JSGuidePage */,
 				ADB56B34261C0310000C18C3 /* Objective-C */,
 				ADB56B2A261C0141000C18C3 /* JSMedia */,
 				ADB56B20261BFA3E000C18C3 /* JSUIKit */,
@@ -282,17 +295,17 @@
 		ADA3C94325AD4D7000DB390E /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				ADA3C94425AD4D7000DB390E /* BaseNavViewController.m */,
-				ADA3C94525AD4D7000DB390E /* APBaseHiddenNavViewController.h */,
-				ADA3C94625AD4D7000DB390E /* BaseBlankNavViewController.h */,
 				ADA3C94725AD4D7000DB390E /* BaseOutTabbar.h */,
-				ADA3C94825AD4D7000DB390E /* APBaseTabbarViewController.h */,
+				ADA3C94B25AD4D7000DB390E /* BaseOutTabbar.m */,
+				ADA3C94E25AD4D7000DB390E /* APBaseMoreRecognizeScrollerView.h */,
 				ADA3C94925AD4D7000DB390E /* APBaseMoreRecognizeScrollerView.m */,
 				ADA3C94A25AD4D7000DB390E /* BaseNavViewController.h */,
-				ADA3C94B25AD4D7000DB390E /* BaseOutTabbar.m */,
+				ADA3C94425AD4D7000DB390E /* BaseNavViewController.m */,
+				ADA3C94625AD4D7000DB390E /* BaseBlankNavViewController.h */,
 				ADA3C94C25AD4D7000DB390E /* BaseBlankNavViewController.m */,
+				ADA3C94525AD4D7000DB390E /* APBaseHiddenNavViewController.h */,
 				ADA3C94D25AD4D7000DB390E /* APBaseHiddenNavViewController.m */,
-				ADA3C94E25AD4D7000DB390E /* APBaseMoreRecognizeScrollerView.h */,
+				ADA3C94825AD4D7000DB390E /* APBaseTabbarViewController.h */,
 				ADA3C94F25AD4D7000DB390E /* APBaseTabbarViewController.m */,
 			);
 			path = BaseViewController;
@@ -629,6 +642,7 @@
 				ADA3C97225AD4D7000DB390E /* BaseNavViewController.m in Sources */,
 				ADA3C96A25AD4D7000DB390E /* SAMKeychain.m in Sources */,
 				ADA3C97825AD4D7000DB390E /* UserManager.m in Sources */,
+				AD9A33BA262EDA1F00420A7C /* JSGuidePageViewController.m in Sources */,
 				ADA3C97725AD4D7000DB390E /* APBaseTabbarViewController.m in Sources */,
 				ADC1E7A2259C70D200F77458 /* BaseFunctionViewController.m in Sources */,
 				ADA3C96E25AD4D7000DB390E /* GlobalNativeimageBrowserVC.m in Sources */,

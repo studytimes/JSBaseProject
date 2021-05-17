@@ -67,7 +67,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"销毁");
+    NSLog(@"销毁%@",self);
 }
 
 
