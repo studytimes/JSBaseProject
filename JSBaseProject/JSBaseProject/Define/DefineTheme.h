@@ -11,16 +11,27 @@
 /**常用的距离 */
 #define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-/**iPhoneX的适配 */
-#define ISIPHONEX  (SCREEN_HEIGHT== 812.0 || SCREEN_HEIGHT== 896.0)
+/**刘海屏幕的适配 */
+#define hasLiuHaiScreen ({ \
+    BOOL IsLiuHaiScreen = NO; \
+    if (@available(iOS 11.0, *)) { \
+        if (@available(iOS 12.0, *) && [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {\
+        IsLiuHaiScreen = YES; \
+        } \
+        UIEdgeInsets safeAreaInsets = [UIApplication sharedApplication].windows[0].safeAreaInsets;\
+        IsLiuHaiScreen =  (safeAreaInsets.top >0) || (safeAreaInsets.bottom >0 ) || (safeAreaInsets.left >0) || (safeAreaInsets.right >0 ); \
+    }\
+    IsLiuHaiScreen ;\
+})
 
-#define MAINSTATUSHEIGHT ((SCREEN_HEIGHT== 812.0 || SCREEN_HEIGHT== 896.0) ? 44.0 : 20.0)
+#define MAINSTATUSHEIGHT ((hasLiuHaiScreen)? 44.0 : 20.0)
 
-#define MAINNAVHEIGHT ((SCREEN_HEIGHT== 812.0 || SCREEN_HEIGHT== 896.0) ? 88.0 : 64.0)
-#define MAINTABHEIGHT ((SCREEN_HEIGHT== 812.0 || SCREEN_HEIGHT== 896.0) ? 83.0 : 49.0)
+#define MAINNAVHEIGHT ((hasLiuHaiScreen) ? 88.0 : 64.0)
+#define MAINTABHEIGHT ((hasLiuHaiScreen) ? 83.0 : 49.0)
 
-#define ADJUSTOPHEIGHT ((SCREEN_HEIGHT== 812.0 || SCREEN_HEIGHT== 896.0) ? 44.0 : 0.0)
-#define ADJUSBOTHEIGHT ((SCREEN_HEIGHT== 812.0 || SCREEN_HEIGHT== 896.0) ? 34.0 : 0.0)
+#define ADJUSTOPHEIGHT ((hasLiuHaiScreen) ? 44.0 : 0.0)
+#define ADJUSBOTHEIGHT ((hasLiuHaiScreen) ? 34.0 : 0.0)
+
 /**有导航栏二级子页面高度 */
 #define GLOBALSUBHEIGHT (SCREEN_HEIGHT-MAINNAVHEIGHT-ADJUSBOTHEIGHT)
 
