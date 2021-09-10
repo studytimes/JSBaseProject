@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD55E33926E6147E0078A060 /* JSCustomDifPageColView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E33426E6147E0078A060 /* JSCustomDifPageColView.m */; };
+		AD55E33A26E6147E0078A060 /* JSCustomDifPageColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E33526E6147E0078A060 /* JSCustomDifPageColCell.m */; };
+		AD55E33B26E6147E0078A060 /* JSCustomDifPageColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */; };
 		AD983CCF26561026005161BA /* TestNSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD983CCE26561026005161BA /* TestNSOperation.m */; };
 		AD983CD226565BFF005161BA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AD983CD126565BFF005161BA /* Person.m */; };
 		AD9A33BA262EDA1F00420A7C /* JSGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9A33B9262EDA1F00420A7C /* JSGuidePageViewController.m */; };
@@ -70,6 +73,11 @@
 		224777628B35BE9603D71C1C /* Pods-JSBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBaseProject.release.xcconfig"; path = "Target Support Files/Pods-JSBaseProject/Pods-JSBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		3800DBB16E34F65ABC2F2287 /* libPods-JSBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525584567B01E71EADC18731 /* Pods-JSBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-JSBaseProject/Pods-JSBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AD55E33426E6147E0078A060 /* JSCustomDifPageColView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomDifPageColView.m; sourceTree = "<group>"; };
+		AD55E33526E6147E0078A060 /* JSCustomDifPageColCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomDifPageColCell.m; sourceTree = "<group>"; };
+		AD55E33626E6147E0078A060 /* JSCustomDifPageColView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomDifPageColView.h; sourceTree = "<group>"; };
+		AD55E33726E6147E0078A060 /* JSCustomDifPageColCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomDifPageColCell.h; sourceTree = "<group>"; };
+		AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCustomDifPageColCell.xib; sourceTree = "<group>"; };
 		AD983CCD26561026005161BA /* TestNSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSOperation.h; sourceTree = "<group>"; };
 		AD983CCE26561026005161BA /* TestNSOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSOperation.m; sourceTree = "<group>"; };
 		AD983CD026565BFF005161BA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -190,6 +198,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD55E33326E6147E0078A060 /* CusPageView */ = {
+			isa = PBXGroup;
+			children = (
+				AD55E33426E6147E0078A060 /* JSCustomDifPageColView.m */,
+				AD55E33526E6147E0078A060 /* JSCustomDifPageColCell.m */,
+				AD55E33626E6147E0078A060 /* JSCustomDifPageColView.h */,
+				AD55E33726E6147E0078A060 /* JSCustomDifPageColCell.h */,
+				AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */,
+			);
+			path = CusPageView;
+			sourceTree = "<group>";
+		};
 		AD983CCC26560EFE005161BA /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +276,7 @@
 		ADA3C93025AD4D7000DB390E /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				AD55E33326E6147E0078A060 /* CusPageView */,
 				ADB56B1F261BF8F8000C18C3 /* JSAVPlayer */,
 				ADA3C93125AD4D7000DB390E /* Category */,
 				ADA3C93425AD4D7000DB390E /* GlobalimageBrower */,
@@ -596,6 +617,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA3C97C25AD4D7000DB390E /* GlobalNoNetWorkTipsView.xib in Resources */,
+				AD55E33B26E6147E0078A060 /* JSCustomDifPageColCell.xib in Resources */,
 				ADC1E7AA259C70D300F77458 /* LaunchScreen.storyboard in Resources */,
 				ADC1E7A7259C70D300F77458 /* Assets.xcassets in Resources */,
 			);
@@ -689,9 +711,11 @@
 				ADC1E7A2259C70D200F77458 /* BaseFunctionViewController.m in Sources */,
 				ADA3C96E25AD4D7000DB390E /* GlobalNativeimageBrowserVC.m in Sources */,
 				ADA3C96625AD4D7000DB390E /* ServerLogManager.m in Sources */,
+				AD55E33A26E6147E0078A060 /* JSCustomDifPageColCell.m in Sources */,
 				ADA3C96F25AD4D7000DB390E /* GlobalUITools.m in Sources */,
 				ADC1E79C259C70D200F77458 /* AppDelegate.m in Sources */,
 				ADA3C96C25AD4D7000DB390E /* BrowerImageView.m in Sources */,
+				AD55E33926E6147E0078A060 /* JSCustomDifPageColView.m in Sources */,
 				ADA3C97325AD4D7000DB390E /* APBaseMoreRecognizeScrollerView.m in Sources */,
 				ADA3C97D25AD4D7000DB390E /* APGlobalCommonNoDataBgView.m in Sources */,
 				ADB56B38261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m in Sources */,

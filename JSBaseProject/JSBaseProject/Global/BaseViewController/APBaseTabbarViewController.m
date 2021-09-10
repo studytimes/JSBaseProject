@@ -99,6 +99,7 @@
     self.tabBar.layer.shadowOffset = CGSizeMake(0, -3);
     self.tabBar.layer.shadowOpacity = 0.3;
     self.tabBar.layer.shadowRadius = 3.0 ;
+    self.tabBar.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.tabBar.bounds].CGPath ;
     
     [self.tabBar setBackgroundImage:[UIImage new]];
     [self.tabBar setShadowImage:[UIImage new]];

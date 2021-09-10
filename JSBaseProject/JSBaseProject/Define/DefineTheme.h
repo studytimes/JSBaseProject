@@ -24,6 +24,16 @@
     IsLiuHaiScreen ;\
 })
 
+///**刘海屏幕的适配 */
+//#define hasLiuHaiScreen ({\
+//    BOOL IsLiuHaiScreen = NO; \
+//    if (@available(iOS 11.0, *)) { \
+//    UIWindow *window = [[UIApplication sharedApplication].windows firstObject]; \
+//    IsLiuHaiScreen = window.safeAreaInsets.bottom > 0; \
+//    } \
+//    IsLiuHaiScreen; \
+//})
+
 #define MAINSTATUSHEIGHT ((hasLiuHaiScreen)? 44.0 : 20.0)
 
 #define MAINNAVHEIGHT ((hasLiuHaiScreen) ? 88.0 : 64.0)
