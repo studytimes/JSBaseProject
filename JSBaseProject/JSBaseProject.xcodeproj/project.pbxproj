@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD4B9E04278E66A700E3CFB8 /* LikeStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4B9E03278E66A700E3CFB8 /* LikeStockViewController.m */; };
 		AD55E33926E6147E0078A060 /* JSCustomDifPageColView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E33426E6147E0078A060 /* JSCustomDifPageColView.m */; };
 		AD55E33A26E6147E0078A060 /* JSCustomDifPageColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E33526E6147E0078A060 /* JSCustomDifPageColCell.m */; };
 		AD55E33B26E6147E0078A060 /* JSCustomDifPageColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */; };
+		AD8AE388278EBD53005680DE /* JSSingleLikeStockTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8AE387278EBD53005680DE /* JSSingleLikeStockTabCell.m */; };
+		AD8AE38C278EC4CC005680DE /* JSStockLeftNameTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8AE38A278EC4CC005680DE /* JSStockLeftNameTabCell.m */; };
+		AD8AE38D278EC4CC005680DE /* JSStockLeftNameTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8AE38B278EC4CC005680DE /* JSStockLeftNameTabCell.xib */; };
+		AD8AE391278EC51D005680DE /* JSStockRightContentTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8AE38F278EC51D005680DE /* JSStockRightContentTabCell.m */; };
+		AD8AE392278EC51D005680DE /* JSStockRightContentTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8AE390278EC51D005680DE /* JSStockRightContentTabCell.xib */; };
 		AD983CCF26561026005161BA /* TestNSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD983CCE26561026005161BA /* TestNSOperation.m */; };
 		AD983CD226565BFF005161BA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AD983CD126565BFF005161BA /* Person.m */; };
 		AD9A33BA262EDA1F00420A7C /* JSGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9A33B9262EDA1F00420A7C /* JSGuidePageViewController.m */; };
@@ -73,11 +79,21 @@
 		224777628B35BE9603D71C1C /* Pods-JSBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBaseProject.release.xcconfig"; path = "Target Support Files/Pods-JSBaseProject/Pods-JSBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		3800DBB16E34F65ABC2F2287 /* libPods-JSBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525584567B01E71EADC18731 /* Pods-JSBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-JSBaseProject/Pods-JSBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AD4B9E02278E66A700E3CFB8 /* LikeStockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeStockViewController.h; sourceTree = "<group>"; };
+		AD4B9E03278E66A700E3CFB8 /* LikeStockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeStockViewController.m; sourceTree = "<group>"; };
 		AD55E33426E6147E0078A060 /* JSCustomDifPageColView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomDifPageColView.m; sourceTree = "<group>"; };
 		AD55E33526E6147E0078A060 /* JSCustomDifPageColCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomDifPageColCell.m; sourceTree = "<group>"; };
 		AD55E33626E6147E0078A060 /* JSCustomDifPageColView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomDifPageColView.h; sourceTree = "<group>"; };
 		AD55E33726E6147E0078A060 /* JSCustomDifPageColCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomDifPageColCell.h; sourceTree = "<group>"; };
 		AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCustomDifPageColCell.xib; sourceTree = "<group>"; };
+		AD8AE386278EBD53005680DE /* JSSingleLikeStockTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSSingleLikeStockTabCell.h; sourceTree = "<group>"; };
+		AD8AE387278EBD53005680DE /* JSSingleLikeStockTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSingleLikeStockTabCell.m; sourceTree = "<group>"; };
+		AD8AE389278EC4CC005680DE /* JSStockLeftNameTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSStockLeftNameTabCell.h; sourceTree = "<group>"; };
+		AD8AE38A278EC4CC005680DE /* JSStockLeftNameTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSStockLeftNameTabCell.m; sourceTree = "<group>"; };
+		AD8AE38B278EC4CC005680DE /* JSStockLeftNameTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSStockLeftNameTabCell.xib; sourceTree = "<group>"; };
+		AD8AE38E278EC51D005680DE /* JSStockRightContentTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSStockRightContentTabCell.h; sourceTree = "<group>"; };
+		AD8AE38F278EC51D005680DE /* JSStockRightContentTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSStockRightContentTabCell.m; sourceTree = "<group>"; };
+		AD8AE390278EC51D005680DE /* JSStockRightContentTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSStockRightContentTabCell.xib; sourceTree = "<group>"; };
 		AD983CCD26561026005161BA /* TestNSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSOperation.h; sourceTree = "<group>"; };
 		AD983CCE26561026005161BA /* TestNSOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSOperation.m; sourceTree = "<group>"; };
 		AD983CD026565BFF005161BA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -198,6 +214,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD4B9E01278E654C00E3CFB8 /* LikeStock */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B9E02278E66A700E3CFB8 /* LikeStockViewController.h */,
+				AD4B9E03278E66A700E3CFB8 /* LikeStockViewController.m */,
+				AD8AE386278EBD53005680DE /* JSSingleLikeStockTabCell.h */,
+				AD8AE387278EBD53005680DE /* JSSingleLikeStockTabCell.m */,
+				AD8AE389278EC4CC005680DE /* JSStockLeftNameTabCell.h */,
+				AD8AE38A278EC4CC005680DE /* JSStockLeftNameTabCell.m */,
+				AD8AE38B278EC4CC005680DE /* JSStockLeftNameTabCell.xib */,
+				AD8AE38E278EC51D005680DE /* JSStockRightContentTabCell.h */,
+				AD8AE38F278EC51D005680DE /* JSStockRightContentTabCell.m */,
+				AD8AE390278EC51D005680DE /* JSStockRightContentTabCell.xib */,
+			);
+			path = LikeStock;
+			sourceTree = "<group>";
+		};
 		AD55E33326E6147E0078A060 /* CusPageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +279,7 @@
 		ADA3C92925AD4D7000DB390E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				AD4B9E01278E654C00E3CFB8 /* LikeStock */,
 				AD9A33B7262ED9F100420A7C /* JSGuidePage */,
 				ADB56B34261C0310000C18C3 /* Objective-C */,
 				ADB56B2A261C0141000C18C3 /* JSMedia */,
@@ -580,6 +614,7 @@
 				TargetAttributes = {
 					ADC1E796259C70D200F77458 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1320;
 					};
 					ADC1E7B1259C70D300F77458 = {
 						CreatedOnToolsVersion = 12.3;
@@ -616,8 +651,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8AE392278EC51D005680DE /* JSStockRightContentTabCell.xib in Resources */,
 				ADA3C97C25AD4D7000DB390E /* GlobalNoNetWorkTipsView.xib in Resources */,
 				AD55E33B26E6147E0078A060 /* JSCustomDifPageColCell.xib in Resources */,
+				AD8AE38D278EC4CC005680DE /* JSStockLeftNameTabCell.xib in Resources */,
 				ADC1E7AA259C70D300F77458 /* LaunchScreen.storyboard in Resources */,
 				ADC1E7A7259C70D300F77458 /* Assets.xcassets in Resources */,
 			);
@@ -704,10 +741,12 @@
 				ADA3C96525AD4D7000DB390E /* ServerFileManager.m in Sources */,
 				ADA3C97225AD4D7000DB390E /* BaseNavViewController.m in Sources */,
 				AD983CCF26561026005161BA /* TestNSOperation.m in Sources */,
+				AD8AE388278EBD53005680DE /* JSSingleLikeStockTabCell.m in Sources */,
 				ADA3C96A25AD4D7000DB390E /* SAMKeychain.m in Sources */,
 				ADA3C97825AD4D7000DB390E /* UserManager.m in Sources */,
 				AD9A33BA262EDA1F00420A7C /* JSGuidePageViewController.m in Sources */,
 				ADA3C97725AD4D7000DB390E /* APBaseTabbarViewController.m in Sources */,
+				AD8AE38C278EC4CC005680DE /* JSStockLeftNameTabCell.m in Sources */,
 				ADC1E7A2259C70D200F77458 /* BaseFunctionViewController.m in Sources */,
 				ADA3C96E25AD4D7000DB390E /* GlobalNativeimageBrowserVC.m in Sources */,
 				ADA3C96625AD4D7000DB390E /* ServerLogManager.m in Sources */,
@@ -716,7 +755,9 @@
 				ADC1E79C259C70D200F77458 /* AppDelegate.m in Sources */,
 				ADA3C96C25AD4D7000DB390E /* BrowerImageView.m in Sources */,
 				AD55E33926E6147E0078A060 /* JSCustomDifPageColView.m in Sources */,
+				AD4B9E04278E66A700E3CFB8 /* LikeStockViewController.m in Sources */,
 				ADA3C97325AD4D7000DB390E /* APBaseMoreRecognizeScrollerView.m in Sources */,
+				AD8AE391278EC51D005680DE /* JSStockRightContentTabCell.m in Sources */,
 				ADA3C97D25AD4D7000DB390E /* APGlobalCommonNoDataBgView.m in Sources */,
 				ADB56B38261C10C6000C18C3 /* UIImageView+JSSingleTapimageview.m in Sources */,
 				ADA3C97625AD4D7000DB390E /* APBaseHiddenNavViewController.m in Sources */,
@@ -886,6 +927,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BF3EZG3JWH;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JSBaseProject/Define/BasePCHeader.pch";
@@ -897,6 +939,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = js.JSBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -907,6 +952,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BF3EZG3JWH;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JSBaseProject/Define/BasePCHeader.pch";
@@ -918,6 +964,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = js.JSBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

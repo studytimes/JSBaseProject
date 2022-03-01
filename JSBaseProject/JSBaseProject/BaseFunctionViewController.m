@@ -7,6 +7,8 @@
 
 #import "BaseFunctionViewController.h"
 
+#import "LikeStockViewController.h"
+
 @interface BaseFunctionViewController () <UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *baseTabView ;
@@ -57,11 +59,20 @@
     return 44.0 ;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 1 && indexPath.row == 0) {
+        LikeStockViewController *stockvc = [[LikeStockViewController alloc] init];
+        [self.navigationController pushViewController:stockvc animated:YES];
+    } else {
+        return ;
+    }
+}
+
 #pragma mark -- Lazy Load
 - (NSMutableArray *)funNameArr {
     if (!_funNameArr) {
         _funNameArr = [NSMutableArray arrayWithArray:@[@[@"自定义AVPlayer",@""],
-                                                       @[@"",@""],
+                                                       @[@"仿股票",@""],
                                                        @[@"",@""]
         ]] ;
     }
