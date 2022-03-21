@@ -576,6 +576,43 @@
     
 }
 
+/**比较两个时间的差值(年月日)*/
++ (NSDateComponents *)compareDateDifferenceWithStartDate:(NSString *)startDateStr andDateFormatter:(NSDateFormatter *)dateFormatter{
+    
+    if (dateFormatter == nil) {
+        dateFormatter = [[NSDateFormatter alloc] init];
+        dateFormatter.timeZone = [NSTimeZone timeZoneWithName:@"Asia/Shanghai"];//东八区时间
+        dateFormatter.dateFormat = @"yyyyMMdd" ;
+
+    }
+    
+    //比较两个日期的差值
+    NSDate *nowdate = [NSDate date] ;
+    NSLog(@"---%@",nowdate) ;
+    NSString *tmpstr = [dateFormatter stringFromDate:nowdate] ;
+    NSLog(@"***%@",tmpstr) ;
+    
+    NSString *tmpstartdate ;
+    if (!startDateStr) {
+        tmpstartdate = @"20220101" ;
+    }
+    NSDate *startDate = [dateFormatter dateFromString:tmpstartdate] ;
+    NSLog(@">>>%@",startDate) ;
+
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSCalendarUnit calendarUnit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay ;
+//        calendar.timeZone =  [NSTimeZone timeZoneWithName:@"Asia/Shanghai"];//东八区时间
+    NSDateComponents *component ;
+    if (startDate ) {
+        component  = [calendar components:calendarUnit fromDate:startDate toDate:nowdate options:0] ;
+    }
+    NSLog(@"%@",component) ;
+    return component ;
+    
+//    NSDateComponents
+}
+
+
 
 
 @end

@@ -20,10 +20,6 @@
 /**图片 */
 @property (nonatomic, strong) NSArray *itemsImageArr;
 
-@property (nonatomic, strong) UIView *lineOneView ;
-
-@property (nonatomic, strong) UIView *lineTwoView ;
-
 @end
 
 @implementation APBaseTabbarViewController
@@ -242,23 +238,6 @@
     }
     return _itemsImageArr;
 }
-
-- (UIView *)lineOneView {
-    if (!_lineOneView) {
-        _lineOneView = [[UIView alloc] init];
-        _lineOneView.backgroundColor = [UIColor colorWithHex:ThirdTextColor] ;
-    }
-    return _lineOneView ;
-}
-
-- (UIView *)lineTwoView {
-    if (!_lineTwoView) {
-        _lineTwoView = [[UIView alloc] init];
-        _lineTwoView.backgroundColor = [UIColor colorWithHex:ThirdTextColor] ;
-    }
-    return _lineTwoView ;
-}
-
 
 - (void)dealloc {
     //移除通知

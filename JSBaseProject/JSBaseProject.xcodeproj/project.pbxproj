@@ -11,6 +11,7 @@
 		AD55E33926E6147E0078A060 /* JSCustomDifPageColView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E33426E6147E0078A060 /* JSCustomDifPageColView.m */; };
 		AD55E33A26E6147E0078A060 /* JSCustomDifPageColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E33526E6147E0078A060 /* JSCustomDifPageColCell.m */; };
 		AD55E33B26E6147E0078A060 /* JSCustomDifPageColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */; };
+		AD65649B27E825AA00E4000D /* AppDelegate+ThirdPart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD65649A27E825AA00E4000D /* AppDelegate+ThirdPart.m */; };
 		AD8AE388278EBD53005680DE /* JSSingleLikeStockTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8AE387278EBD53005680DE /* JSSingleLikeStockTabCell.m */; };
 		AD8AE38C278EC4CC005680DE /* JSStockLeftNameTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8AE38A278EC4CC005680DE /* JSStockLeftNameTabCell.m */; };
 		AD8AE38D278EC4CC005680DE /* JSStockLeftNameTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8AE38B278EC4CC005680DE /* JSStockLeftNameTabCell.xib */; };
@@ -86,6 +87,8 @@
 		AD55E33626E6147E0078A060 /* JSCustomDifPageColView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomDifPageColView.h; sourceTree = "<group>"; };
 		AD55E33726E6147E0078A060 /* JSCustomDifPageColCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomDifPageColCell.h; sourceTree = "<group>"; };
 		AD55E33826E6147E0078A060 /* JSCustomDifPageColCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCustomDifPageColCell.xib; sourceTree = "<group>"; };
+		AD65649927E825AA00E4000D /* AppDelegate+ThirdPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ThirdPart.h"; sourceTree = "<group>"; };
+		AD65649A27E825AA00E4000D /* AppDelegate+ThirdPart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ThirdPart.m"; sourceTree = "<group>"; };
 		AD8AE386278EBD53005680DE /* JSSingleLikeStockTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSSingleLikeStockTabCell.h; sourceTree = "<group>"; };
 		AD8AE387278EBD53005680DE /* JSSingleLikeStockTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSingleLikeStockTabCell.m; sourceTree = "<group>"; };
 		AD8AE389278EC4CC005680DE /* JSStockLeftNameTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSStockLeftNameTabCell.h; sourceTree = "<group>"; };
@@ -509,6 +512,8 @@
 				ADA3C92A25AD4D7000DB390E /* Vender */,
 				ADC1E79A259C70D200F77458 /* AppDelegate.h */,
 				ADC1E79B259C70D200F77458 /* AppDelegate.m */,
+				AD65649927E825AA00E4000D /* AppDelegate+ThirdPart.h */,
+				AD65649A27E825AA00E4000D /* AppDelegate+ThirdPart.m */,
 				ADC1E7A0259C70D200F77458 /* BaseFunctionViewController.h */,
 				ADC1E7A1259C70D200F77458 /* BaseFunctionViewController.m */,
 				ADC1E7A6259C70D300F77458 /* Assets.xcassets */,
@@ -744,6 +749,7 @@
 				AD8AE388278EBD53005680DE /* JSSingleLikeStockTabCell.m in Sources */,
 				ADA3C96A25AD4D7000DB390E /* SAMKeychain.m in Sources */,
 				ADA3C97825AD4D7000DB390E /* UserManager.m in Sources */,
+				AD65649B27E825AA00E4000D /* AppDelegate+ThirdPart.m in Sources */,
 				AD9A33BA262EDA1F00420A7C /* JSGuidePageViewController.m in Sources */,
 				ADA3C97725AD4D7000DB390E /* APBaseTabbarViewController.m in Sources */,
 				AD8AE38C278EC4CC005680DE /* JSStockLeftNameTabCell.m in Sources */,
